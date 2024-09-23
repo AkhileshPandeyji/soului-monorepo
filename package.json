@@ -1,8 +1,9 @@
 {
   "name": "root",
-  "private": false,
+  "private": true,
   "version": "0.0.1",
   "workspaces": [
+    ".",
     "packages/*"
   ],
   "devDependencies": {
@@ -40,5 +41,8 @@
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
+  },
+  "nx": {
+    "includedScripts": []
   }
 }
