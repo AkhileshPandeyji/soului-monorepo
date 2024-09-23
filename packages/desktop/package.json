@@ -12,12 +12,10 @@
   "license": "ISC",
   "main": "index.ts",
   "directories": {
-    "lib": "lib",
+    "components": "components",
+    "stories": "stories",
     "test": "__tests__"
   },
-  "files": [
-    "lib"
-  ],
   "publishConfig": {
     "access": "public"
   },
