@@ -10,7 +10,7 @@ const Btn = styled.button<{
   width: ${({ width }) => width}px;
   height: ${({ height }) => height}px;
   background: ${({ bg }) => bg};
-  border-radius: 19px;
+  border-radius: 16px;
 `;
 
 interface ButtonProps {
