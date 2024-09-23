@@ -25,7 +25,6 @@
   "scripts": {
     "build": "lerna run build",
     "test": "lerna run test",
-    "version": "lerna version",
     "publish": "lerna publish",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
