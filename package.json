@@ -1,6 +1,5 @@
 {
   "name": "root",
-  "private": false,
   "workspaces": [
     "packages/*"
   ],
@@ -38,6 +37,7 @@
     "styled-components": "^6.1.13"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "nx": {
