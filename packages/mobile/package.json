@@ -1,0 +1,36 @@
+{
+  "name": "@soului/mobile",
+  "version": "0.0.0",
+  "description": "This holds mobile Ui components",
+  "keywords": [
+    "mobile",
+    "ui",
+    "components"
+  ],
+  "author": "AkhileshPandeyji <pandeyakhilesh5372@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "@types/react": "^18.3.8",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "husky": "^9.1.6"
+  }
+}
